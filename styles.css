@@ -5,33 +5,54 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(./image/Header\ bg.png);
-    background-repeat: no-repeat;
-    background-position: cover;
     color: rgb(41, 41, 106);
-    padding: 0px, 40px 0px, 40px;
+    padding-right: 40px;
+    padding-left: 20px;
   }
-  .navbar_section {
-    background-image: url(./image/Header\ bg.png);
-    background-repeat: no-repeat;
-    background-position: cover;
+  .nav_botton {
+    cursor: pointer;
   }
+  .dropdown_buttom {
+    position: relative;
+    display: inline;
+  }
+  .drop_downbtn {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .drop_downbtn a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  .drop_downbtn a:hover {
+    background-color: rgb(69, 69, 183);
+  }
+  .dropdown_buttom:hover .drop_downbtn {
+    display: block;
+  }
+
   /* header end */
 
   /* about page start */
   .about_me {
-    background-color: url(./image/contact\ form\ background\ shapes@2x.png);
+    background-image: url(./image/Header\ bg@2x.png);
     background-repeat: no-repeat;
     background-position: cover;
     width: 100%;
     font-weight: 300;
-    padding: 0px, 40px 0px, 40px;
+    padding: 10px;
     color: rgb(41, 41, 106);
     font-size: 25px;
   }
   .my-name {
     width: 100%;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 900;
     font-family: sans-serif;
   }
@@ -41,7 +62,7 @@
     justify-content: flex-start;
     align-items: center;
   }
-  li a img {
+  .social_media_list a img {
     padding: 20px;
   }
   .connect {
