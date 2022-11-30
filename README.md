@@ -57,11 +57,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [My-portfolio] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> Build a personal portfolio site.Use images and backgrounds to enhance the look of the website.
 
-**[your_project__name]** is a...
+**[My-portfolio]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -225,25 +225,6 @@ Example:
 - [ ] **[new_feature_1]**
 - [ ] **[new_feature_2]**
 - [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
-
 If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
