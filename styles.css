@@ -1,0 +1,39 @@
+/* ****Start Mobile first**** */
+@media (max-width: 500px) {
+  /* header start */
+  .navbar_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+    align-items: center;
+    background-image: url(./image/Header\ bg.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+  }
+  /* header end */
+
+  /* about page start */
+  .about_me {
+    background-color: url(./image/contact\ form\ background\ shapes@2x.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 100%;
+    font-weight: 300;
+    padding: 0px, 20px 0px, 20px;
+  }
+  .my-name {
+    width: 100%;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: sans-serif;
+  }
+  .social_media {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  li a img {
+    padding: 20px;
+  }
+}
