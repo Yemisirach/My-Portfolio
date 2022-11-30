@@ -8,13 +8,16 @@
     padding-right: 40px;
     padding-left: 20px;
   }
+
   .nav_botton {
     cursor: pointer;
   }
+
   .dropdown_buttom {
     position: relative;
     display: inline;
   }
+
   .drop_downbtn {
     display: none;
     position: absolute;
@@ -23,15 +26,18 @@
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
   }
+
   .drop_downbtn a {
     color: black;
     padding: 12px 12px;
     text-decoration: none;
     display: block;
   }
+
   .drop_downbtn a:hover {
     background-color: rgb(69, 69, 183);
   }
+
   .dropdown_buttom:hover .drop_downbtn {
     display: block;
   }
@@ -45,21 +51,25 @@
     color: rgb(41, 41, 106);
     font-size: 25px;
   }
+
   .my-name {
     width: 100%;
     font-size: 45px;
     font-weight: 900;
     font-family: sans-serif;
   }
+
   .social_media {
     list-style: none;
     display: flex;
     justify-content: flex-start;
     align-items: center;
   }
+
   .social_media_list a img {
     padding: 20px;
   }
+
   .connect {
     font-size: 25px;
     color: rgb(84, 84, 176);
