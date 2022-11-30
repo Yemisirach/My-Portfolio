@@ -1,6 +1,5 @@
 /* ****Start Mobile first**** */
 @media (max-width: 500px) {
-  /* header start */
   .navbar_section {
     display: flex;
     justify-content: space-between;
