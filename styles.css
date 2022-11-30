@@ -1,6 +1,5 @@
 /* ****Start Mobile first**** */
 @media (max-width: 500px) {
-  /* header start */
   .navbar_section {
     display: flex;
     justify-content: space-between;
@@ -36,8 +35,6 @@
   .dropdown_buttom:hover .drop_downbtn {
     display: block;
   }
-  /* header end */
-  /* about page start */
   .about_me {
     background-image: url(./image/Header\ bg@2x.png);
     background-repeat: no-repeat;
