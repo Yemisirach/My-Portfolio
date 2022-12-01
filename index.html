@@ -7,6 +7,74 @@
     <title>portfolio</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
+  <style>
+    @media (max-width: 500px) {
+  .navbar_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(41, 41, 106);
+    padding-right: 40px;
+    padding-left: 20px;
+  }
+  .nav_botton {
+    cursor: pointer;
+  }
+  .dropdown_buttom {
+    position: relative;
+    display: inline;
+  }
+  .drop_downbtn {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .drop_downbtn a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  .drop_downbtn a:hover {
+    background-color: rgb(69, 69, 183);
+  }
+  .dropdown_buttom:hover .drop_downbtn {
+    display: block;
+  }
+  .about_me {
+    background-image: url(./image/Header\ bg@2x.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 100%;
+    font-weight: 300;
+    padding: 10px;
+    color: rgb(41, 41, 106);
+    font-size: 25px;
+  }
+  .my-name {
+    width: 100%;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: sans-serif;
+  }
+  .social_media {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .social_media_list a img {
+    padding: 20px;
+  }
+  .connect {
+    font-size: 25px;
+    color: rgb(84, 84, 176);
+  }
+}
+  </style>
   <body>
     <section class="navbar_section">
       <div class="navbar_logo"><h1>YEMI</h1></div>
