@@ -76,6 +76,7 @@
 
   .social_media {
     list-style: none;
+
     /* display: grid; */
     display: flex;
     justify-content: space-between;
@@ -102,12 +103,17 @@
     font-weight: 100;
   }
 
-  .work img {
+  .grid-container {
+    display: grid;
+    justify-content: space-between;
+  }
+  /* .work img {
     padding-bottom: 80px;
     background-image: url(./image/Base\ about\ my\ self.png);
     margin-left: 10px;
     margin-right: 15px;
-  }
+  } */
+
   /* .grid-container {
   display: grid;
   justify-content: space-around;
@@ -131,34 +137,42 @@
     text-decoration: none;
     list-style: none;
   }
-  .btn img {
+
+  /* .btn img {
     width: 100px;
-  }
-  .resume {
+  } */
+
+  /* .resume {
     height: 35px;
-  }
-  .resume a {
+  } */
+
+  /* .resume a {
     text-decoration: none;
     color: #515fdb;
     font-size: 14px;
-  }
+  } */
+
   .New_contact {
     padding-bottom: 10px;
   }
+
   .skils {
     display: flex;
     justify-content: space-between;
     width: 150px;
   }
+
   .Languages {
     display: flex;
     justify-content: space-between;
     width: 250px;
     align-items: center;
   }
+
   .About_self {
     color: #20265a;
   }
+
   .About_self p {
     font-size: 20px;
   }
