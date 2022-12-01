@@ -1,95 +1,95 @@
 /* ****Start Mobile first**** */
 
-/* @media (max-width: 500px) { */
-.navbar_section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-right: 40px;
-  padding-left: 20px;
-}
-.navbar_logo a {
-  font-size: 26px;
-  text-decoration: none;
-  color: rgb(41, 41, 106);
-  font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.nav_botton {
-  cursor: pointer;
-}
+@media (max-width: 500px) {
+  .navbar_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 20px;
+  }
+  .navbar_logo a {
+    font-size: 26px;
+    text-decoration: none;
+    color: rgb(41, 41, 106);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .nav_botton {
+    cursor: pointer;
+  }
 
-.dropdown_buttom {
-  position: relative;
-  display: inline;
-}
+  .dropdown_buttom {
+    position: relative;
+    display: inline;
+  }
 
-.drop_downbtn {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 160px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
+  .drop_downbtn {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
 
-.drop_downbtn a {
-  color: black;
-  padding: 12px 12px;
-  text-decoration: none;
-  display: block;
-}
+  .drop_downbtn a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+  }
 
-.drop_downbtn a:hover {
-  background-color: rgb(69, 69, 183);
-}
+  .drop_downbtn a:hover {
+    background-color: rgb(69, 69, 183);
+  }
 
-.dropdown_buttom:hover .drop_downbtn {
-  display: block;
-}
+  .dropdown_buttom:hover .drop_downbtn {
+    display: block;
+  }
 
-.about_me {
-  background-image: url(./image/Header\ bg.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  font-weight: 300;
-  padding: 10px;
-  color: rgb(41, 41, 106);
-  font-size: 25px;
-  padding-top: 100px;
-}
+  .about_me {
+    background-image: url(./image/Header\ bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position: left; */
+    font-weight: 300;
+    padding: 10px;
+    color: rgb(41, 41, 106);
+    font-size: 25px;
+    padding-top: 100px;
+  }
 
-.my-name {
-  width: 100%;
-  font-size: 45px;
-  font-weight: 900;
-  font-family: sans-serif;
-}
+  .my-name {
+    width: 100%;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: sans-serif;
+  }
 
-.social_media {
-  list-style: none;
-  display: flex;
-  /* justify-content: flex-start; */
-  align-items: center;
-  justify-content: space-between;
-  width: 150px;
-}
-ul {
-  padding: 0;
-  margin: 0;
-}
-.social_media_list a img {
-  padding: 20px, 20px, 20px 0px;
-  width: 25px;
-  height: 25px;
-}
+  .social_media {
+    list-style: none;
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  .social_media_list a img {
+    padding: 20px, 20px, 20px 0px;
+    width: 25px;
+    height: 25px;
+  }
 
-.connect {
-  font-size: 19px;
-  color: rgb(155, 155, 243);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-weight: 100;
+  .connect {
+    font-size: 19px;
+    color: rgb(155, 155, 243);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 100;
+  }
 }
-
-/* } */
