@@ -1,6 +1,6 @@
 /* ****Start Mobile first**** */
 @media (max-width: 500px) {
-  .navbar_section {
+  #navbar_section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,14 +8,14 @@
     padding-right: 40px;
     padding-left: 20px;
   }
-  .nav_botton {
+  #nav_botton {
     cursor: pointer;
   }
-  .dropdown_buttom {
+  #dropdown_buttom {
     position: relative;
     display: inline;
   }
-  .drop_downbtn {
+  #drop_downbtn {
     display: none;
     position: absolute;
     background-color: white;
@@ -23,20 +23,20 @@
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
   }
-  .drop_downbtn a {
+  #drop_downbtn a {
     color: black;
     padding: 12px 12px;
     text-decoration: none;
     display: block;
   }
-  .drop_downbtn a:hover {
+  #drop_downbtn a:hover {
     background-color: rgb(69, 69, 183);
   }
-  .dropdown_buttom:hover .drop_downbtn {
+  #dropdown_buttom:hover #drop_downbtn {
     display: block;
   }
-  .about_me {
-    background-image: url(./image/Header\ bg@2x.png);
+  #about_me {
+    background-image: url(#/image/Header\ bg@2x#png);
     background-repeat: no-repeat;
     background-position: cover;
     width: 100%;
@@ -45,22 +45,22 @@
     color: rgb(41, 41, 106);
     font-size: 25px;
   }
-  .my-name {
+  #my-name {
     width: 100%;
     font-size: 45px;
     font-weight: 900;
     font-family: sans-serif;
   }
-  .social_media {
+  #social_media {
     list-style: none;
     display: flex;
     justify-content: flex-start;
     align-items: center;
   }
-  .social_media_list a img {
+  #social_media_list a img {
     padding: 20px;
   }
-  .connect {
+  #connect {
     font-size: 25px;
     color: rgb(84, 84, 176);
   }
