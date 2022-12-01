@@ -56,8 +56,6 @@
   background-size: 100%;
   background-repeat: no-repeat;
   font-weight: 400;
-  font-family: "Poppins";
-  font-style: normal;
   padding: 10px;
   color: rgb(41, 41, 106);
   font-size: 25px;
@@ -65,11 +63,13 @@
   height: 718px;
   width: 100%;
 }
+
 .my-name {
   width: 100%;
   font-size: 45px;
   font-weight: 900;
-  font-family: "Poppins";
+
+  /* font-family: "Poppins"; */
   font-style: normal;
 }
 
@@ -94,24 +94,40 @@ ul {
 
 .connect {
   font-size: 19px;
-  color: rgb(155, 155, 243);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #7f8cff;
+  font-family:
+    "Lucida Sans",
+    "Lucida Sans Regular",
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    Geneva,
+    Verdana,
+    sans-serif;
   font-weight: 100;
 }
+
 .work {
   color: rgb(41, 41, 106);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family:
+    "Lucida Sans",
+    "Lucida Sans Regular",
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    Geneva,
+    Verdana,
+    sans-serif;
 }
-.work img {
+
+/* .work img {
   width: 100%;
   padding-top: 10px;
 }
+
 .work h1 {
   color: rgb(41, 41, 106);
   font-weight: bold;
 }
+
 .profile {
   display: flex;
   align-items: center;
@@ -120,6 +136,7 @@ ul {
   list-style-type: circle;
   list-style-position: outside;
 }
+
 .skill {
   display: flex;
   align-items: center;
@@ -127,17 +144,21 @@ ul {
   width: 300px;
   text-decoration: none;
   list-style: none;
-}
-.btn {
+} */
+
+/* .btn {
   height: 30px;
   font-size: 15px;
 }
+
 .btn a {
   text-decoration: none;
   color: rgb(104, 143, 215);
   font-weight: 600;
 }
+
 .btn a:hover {
   color: blanchedalmond;
-}
+} */
+
 /* } */
