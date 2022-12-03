@@ -23,11 +23,6 @@ REQUIRED SECTIONS:
   - [🛠 Built With](#built-with)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
@@ -43,6 +38,7 @@ REQUIRED SECTIONS:
 
 ## 🛠 Built With <a name="built-with"></a>
 -Marke up languages
+
 -Technologies use
 ## Live Demo (if available)
 + HTML and CSS
@@ -69,11 +65,8 @@ Always check the output whether it is matching withe required one.
   git clone git@github.com:myaccount/my-portfolio.git 
 ```
 ### Install
-
 ### Usage
-
 ### Run tests
-
 ### Deployment
 
 ## 👥 Authors <a name="authors"></a>
