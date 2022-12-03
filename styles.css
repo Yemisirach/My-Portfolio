@@ -1,6 +1,4 @@
 /* ****Start Mobile first**** */
-
-/* @media screen and (max-width: 500px) { */
 * {
   margin: 0;
   padding: 0;
@@ -165,6 +163,7 @@
   background-repeat: no-repeat;
   background-position: 100%;
   background-position-y: calc(-1%);
+  border-bottom-left-radius: 70px;
 }
 
 .ellipse,
@@ -210,11 +209,6 @@ ul {
   width: 150px;
 }
 
-.work img {
-  width: 100%;
-  padding-top: 10px;
-}
-
 .social_media_bottom img {
   padding: 10px;
 }
@@ -233,16 +227,19 @@ ul {
 /* work section start  */
 
 .grid-container {
+  width: 375px;
+  height: 2788px;
   display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   justify-content: center;
-  padding-left: 24px;
-  grid-template-columns: (1, 4fr);
-  row-gap: 10px;
-  column-gap: 24px;
-  background-color: #dfe1e6;
+  padding: 114px, 24px, 114px, 24px;
+  background-color: #e5e5e5;
+  padding-top: 90px;
+  margin-top: 50px;
+  border-top-left-radius: 20px;
 }
 
-.work h1 {
+.grid-container h1 {
   color: rgb(41, 41, 106);
   font-weight: 700;
   font-size: 32px;
@@ -263,24 +260,29 @@ ul {
 .snapshoot {
   gap: 12px;
   width: 327px;
-  height: 591px;
-  top: 754px;
+  height: 552px;
   left: 24px;
   right: 24px;
   border-radius: 16px;
   border: #dfe1e6;
   background-color: white;
-  margin-bottom: 60px;
-  margin-top: 50px;
 }
 
-.snapshoot div {
-  padding-left: 10px;
-  padding-right: 10px;
+.Snapshoot_Portfolio {
+  margin: 16px 16px 2px 16px;
 }
 
-.snapshoot_1 h1 {
-  width: 150px;
+.snapshoot_1 ul {
+  padding: 0;
+}
+
+.snapshoot_1 {
+  padding-left: 14px;
+  line-height: 24px;
+}
+
+.snapshoot_1 h2 {
+  padding-bottom: 5px;
 }
 
 .snapshoot p {
@@ -289,7 +291,8 @@ ul {
   line-height: 24px;
   width: 250px;
   height: 70px;
-  padding-left: 12px;
+  padding-left: 16px;
+  padding-top: 5px;
 }
 
 .skill {
@@ -299,7 +302,7 @@ ul {
   width: 250px;
   text-decoration: none;
   list-style: none;
-  padding: 4px 12px;
+  padding: 4px 16px;
   padding-top: 20px;
   padding-bottom: 25px;
 }
@@ -315,11 +318,16 @@ ul {
   width: 120px;
 }
 
+.framework button {
+  width: 327px;
+}
+
 .Language button {
   border-style: none;
   font-size: 15px;
   height: 40px;
   align-items: center;
+  width: 327px;
 }
 
 .skill li button {
@@ -334,7 +342,7 @@ ul {
 }
 
 .see_project {
-  padding-left: 13px;
+  padding-left: 14px;
 }
 
 /* .About_self page start  */
@@ -369,7 +377,6 @@ ul {
 .Language {
   display: flex;
   justify-content: space-between;
-  width: 250px;
   align-items: center;
   position: relative;
 }
@@ -382,7 +389,6 @@ ul {
   height: 10vh;
   display: flex;
   align-items: center;
-  width: 90%;
 }
 
 .Language ul {
@@ -423,17 +429,14 @@ ul {
 }
 
 .framework {
-  height: 48px;
   width: 300px;
   display: flex;
   justify-content: space-between;
-  padding-left: 5px;
-  padding-right: 10px;
+  padding: 10px 5px 10px 10px;
+  color: black;
 }
 
 .open_vector {
   motion-rotation: reverse;
   rotate: 90deg;
 }
-
-/* } */
