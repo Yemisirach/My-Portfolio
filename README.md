@@ -57,7 +57,6 @@ REQUIRED SECTIONS:
 All the checks are done with linters.HTML and CSS files are written following FIGMA desisn.
 Always check the output whether it is matching withe required one.
 ### Prerequisites
--To get a local copy up and running follow these simple example steps.
 ### Setup
 
 ```sh
