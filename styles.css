@@ -460,6 +460,14 @@ form ul {
   rotate: 90deg;
 }
 
+.Desktop_vision_list {
+  display: none;
+}
+
+.Desktop_vision_img2 {
+  display: none;
+}
+
 /* contact me start mobile version */
 .contact_me_section {
   height: 769px;
@@ -470,6 +478,12 @@ form ul {
   display: flex;
   justify-content: center;
   margin-top: 120px;
+}
+
+.Contact_me {
+  background-image: url(./image/contact\ form\ shapes-mobile.png);
+  background-position: 94.5%;
+  background-repeat: no-repeat;
 }
 
 .contact_header {
