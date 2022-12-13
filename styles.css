@@ -534,12 +534,20 @@ input:invalid {
   background-image: linear-gradient(to right, pink, lightgreen);
 } */
 
-.Rectangle2 {
-  padding-left: 90px;
-}
-
 .shape {
   display: flex;
   justify-content: center;
   padding-top: 30px;
+}
+
+.Get_btn button:hover {
+  padding: 5px;
+  background-color: #6070ff;
+  color: #dfe1e6;
+}
+
+.Get_btn button:active {
+  padding: 5px;
+  background-color: #1d2fd4;
+  color: #dfe1e6;
 }
