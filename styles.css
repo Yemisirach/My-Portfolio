@@ -79,7 +79,7 @@
   background-position-y: calc(8%);
   background-position-x: right;
   height: 718px;
-  width: 100%;
+  width: 375px;
 }
 
 .my-name {
@@ -87,35 +87,27 @@
   height: 160px;
   font-size: 40px;
   font-weight: 700;
-  padding-top: 90px;
-  padding-left: 24px;
-  padding-right: 24px;
-  font-family:
-    "Lucida Sans",
-    "Lucida Sans Regular",
-    "Lucida Grande",
-    "Lucida Sans Unicode",
-    Geneva,
-    Verdana,
-    sans-serif;
+  padding: 90px 24px 0px 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: normal;
   line-height: 50px;
 }
-
+.ellipse,
+.ellipse_3,
+.ellipse_2,
+.ellipse_1 {
+  width: 100%;
+  height: 718px;
+}
 .ellipse_3 p {
   background-image: url(./image/Ellipse\ 12.png);
   background-repeat: no-repeat;
   background-position: 100%;
   background-position-y: bottom;
   background-position-x: right;
-  font-family:
-    "Lucida Sans",
-    "Lucida Sans Regular",
-    "Lucida Grande",
-    "Lucida Sans Unicode",
-    Geneva,
-    Verdana,
-    sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   width: 75%;
   height: 145px;
   font-size: 16px;
@@ -166,14 +158,6 @@
   border-bottom-left-radius: 70px;
 }
 
-.ellipse,
-.ellipse_3,
-.ellipse_2,
-.ellipse_1 {
-  width: 100%;
-  height: 718px;
-}
-
 .contact_wraper {
   background-image: url(./image/Rectangle\ 5.png);
   background-repeat: no-repeat;
@@ -188,6 +172,7 @@
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: calc(10%);
+  border-top-right-radius: 50px;
 }
 
 ul {
@@ -225,16 +210,14 @@ ul {
 }
 
 /* work section start  */
-
 .grid-container {
   width: 375px;
-  height: 2788px;
+  height: 2728px;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   justify-content: center;
-  padding: 114px, 24px, 114px, 24px;
+  padding: 90px 24px 114px 24px;
   background-color: #e5e5e5;
-  padding-top: 90px;
   margin-top: 50px;
   border-top-left-radius: 20px;
 }
@@ -268,7 +251,7 @@ ul {
   background-color: white;
 }
 
-.Snapshoot_Portfolio {
+.mobile_version_img {
   margin: 16px 16px 2px 16px;
 }
 
@@ -343,6 +326,10 @@ ul {
 
 .see_project {
   padding-left: 14px;
+}
+.Desktop_vision_img,
+.Desktop_vision_img2 {
+  display: none;
 }
 
 /* .About_self page start  */
@@ -440,3 +427,89 @@ ul {
   motion-rotation: reverse;
   rotate: 90deg;
 }
+/* contact me start mobile version */
+
+/* .Contact_me {
+  height: 779px;
+  width: 375px;
+  background-image: url(./image/Contact\ me.png);
+  background-repeat: no-repeat;
+  background-position: cen;
+  padding: 10px 24px 10px 24px;
+}
+.Contact_me_wraper {
+  height: 710px;
+  width: 222px;
+  background-image: url(./image/contact\ form\ shapes-mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Contact_me_wraper_1 {
+  background-image: url(./image/Ellipse\ 8.png);
+  background-repeat: no-repeat;
+  background-position-y: calc(91%);
+  background-position-x: calc(69%);
+}
+.contact_discription p h2 {
+  width: 250px;
+  align-items: center;
+  height: 102px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.contact_discription h2 {
+  font-weight: 700;
+  font-size: 30px;
+  height: 40px;
+  padding-top: 24px;
+  padding-top: 140px;
+}
+form {
+  padding: 360px, 24px 0, 24px;
+  padding-top: 70px;
+}
+.contact_me_form input {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 305px;
+  border-radius: 8px;
+  border: 1px sold #cfd8dc;
+  background-color: #fff;
+  height: 40px;
+  padding-left: 15px;
+}
+
+textarea {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 327px;
+  height: 170px;
+  margin-top: 10px;
+  padding: 5px;
+}
+input:invalid {
+  border: 2px solid red;
+}
+input:invalid:required {
+  background-image: linear-gradient(to right, pink, lightgreen);
+}
+
+#get_btn {
+  margin-top: 215px;
+  height: 120px;
+  width: 327px;
+}
+
+.Rectangle2 {
+  padding-left: 90px;
+} */
