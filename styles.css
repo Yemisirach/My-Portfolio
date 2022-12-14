@@ -782,9 +782,6 @@ input:invalid {
   .see_project button {
     margin-top: 30px;
   }
-  .framework button {
-    display: none;
-  }
 
   .Language button {
     display: none;
@@ -816,13 +813,13 @@ input:invalid {
     height: 101px;
     padding-top: 30px;
   }
-  .dropdawn {
-    display: none;
-  }
-
-  /* .language_btn {
+  /* .dropdawn {
     display: none;
   } */
+
+  .language_btn {
+    display: block;
+  }
   .language_list_all {
     display: flex;
     width: 360px;
@@ -837,7 +834,7 @@ input:invalid {
   .dropdawn {
     display: none;
   }
-  */ .language_list {
+  .language_list {
     width: 122px;
     height: 120px;
     margin: 5px;
@@ -875,12 +872,27 @@ input:invalid {
     rotate: 90deg;
   }
   /* contact me start for desctop version */
+  .contact_me_section {
+    background-image: url(./image/desktop-version/contact\ form-\ background-shape-desktop.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 100%;
+  }
+  .Contact_me {
+    background-image: url(./image/desktop-version/contact\ form\ background\ shapes.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 779px;
+    width: 100%;
+    padding-left: 462px;
+  }
   .contact_header {
     height: 56px;
     font-weight: 700;
     line-height: 52px;
     text-align: center;
-    width: 450px;
+    width: 810px;
+    padding-left: 125px;
   }
 
   .contact_paragraph {
@@ -906,43 +918,24 @@ input:invalid {
 
   .get_btn {
     margin-top: 215px;
-    background-image: none;
-    width: 447px;
-    padding-left: 145px;
-  }
 
-  form {
-    padding-top: 20px;
+    padding-right: 145px;
+  }
+  .Get_btn button {
+    margin-top: 222px;
+    margin-left: 176.5px;
   }
 
   .form_input input {
-    width: 437px;
+    width: 457px;
     border: #cfd8dc;
     border-radius: 5px;
     height: 48px;
   }
-  .Contact_me {
-    background-image: none;
-      padding: none;
-      padding-left: 462px;
-    }
-  }
-  .contact_me_section {
-    background-image: url(./image/desktop-version/contact\ form-\ background-shape-desktop.png);
-    background-repeat: no-repeat;
-    background-position: cover;
-  }
-  .Contact_me {
-    background-image: url(./image/desktop-version/contact\ form\ background\ shapes.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 779px;
-    width: 100%;
-  } 
-  .shape{
+  .shape {
     display: none;
   }
- }
+}
 
 /* @media screen and (min-width: 1440px) {
   .grid-container {
