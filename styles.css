@@ -395,6 +395,12 @@ form ul {
   width: 200px;
   color: #5563da;
   border-color: #515fdb;
+  transition: width 0.5s ease;
+}
+
+.resume:hover {
+  width: 300px;
+  scale: (1 0.5);
 }
 
 .Language {
