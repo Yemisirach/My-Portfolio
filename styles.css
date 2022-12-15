@@ -1,11 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;800&display=swap");
 
+:root {
+  --primary-color: #1a2236;
+  --heading-font: "Playfair Display", serif;
+  --main-font: "Poppins", sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
+
 /* ****Start Mobile first**** */
 
 .navbar_section {
@@ -23,7 +30,7 @@ body {
   text-decoration: none;
   color: rgb(41, 41, 106);
   font-weight: bold;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
 }
 
 .nav_botton {
@@ -92,7 +99,7 @@ body {
   font-size: 40px;
   font-weight: 700;
   padding: 90px 24px 15px 24px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   line-height: 50px;
 }
@@ -111,7 +118,7 @@ body {
   background-position: 100%;
   background-position-y: bottom;
   background-position-x: right;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   width: 75%;
   height: 145px;
   font-size: 16px;
@@ -368,7 +375,7 @@ form ul {
   width: 120px;
   height: 101px;
   padding-top: 30px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
 }
 
 .New_contact {
@@ -556,4 +563,5 @@ input:invalid {
   background-color: #1d2fd4;
   color: #dfe1e6;
 }
+
 /* ****Start Desktop **** */
