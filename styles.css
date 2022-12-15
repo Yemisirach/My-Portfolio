@@ -352,8 +352,13 @@ form ul {
   align-items: center;
 }
 
+.see_project button:hover {
+  transform: translate(5px, 10px);
+}
+
 .see_project {
   padding-left: 14px;
+  transform: translate(40px, 20px);
 }
 
 .Desktop_vision_img,
@@ -454,7 +459,8 @@ form ul {
 }
 
 .open_vector {
-  motion-rotation: reverse;
+  /* motion-rotation: reverse; */
+  transform: rotate(360deg);
   rotate: 90deg;
 }
 
@@ -853,10 +859,6 @@ input:invalid {
     align-items: center;
   }
 
-  .Language button {
-    /* width: 350px; */
-  }
-
   .Language {
     display: flex;
     flex-direction: row;
@@ -887,8 +889,7 @@ input:invalid {
   }
 
   .open_vector {
-    /* padding-bottom: 200px; */
-    motion-rotation: reverse;
+    /* motion-rotation: reverse; */
     rotate: 90deg;
   }
 
