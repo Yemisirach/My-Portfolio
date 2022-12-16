@@ -729,9 +729,11 @@ input:invalid {
     border: 6%;
     border-radius: 24px;
   }
+
   .snapshoot_zero {
     width: 100%;
   }
+
   .new_snapshot {
     width: 100%;
   }
@@ -833,6 +835,7 @@ input:invalid {
     margin: 1%;
     line-height: 100%;
   }
+
   .About_self p {
     font-size: 20px;
     line-height: 100%;
@@ -869,6 +872,7 @@ input:invalid {
     position: relative;
     margin-top: 70%;
   }
+
   .Language ul {
     position: relative;
     display: flex;
@@ -889,6 +893,7 @@ input:invalid {
     align-items: center;
     list-style: none;
   }
+
   .language_list {
     display: flex;
     flex-direction: column;
@@ -906,6 +911,7 @@ input:invalid {
     align-items: center;
     color: black;
   }
+
   .Framework {
     margin-top: 36%;
   }
@@ -914,9 +920,11 @@ input:invalid {
     /* motion-rotation: reverse; */
     rotate: 90deg;
   }
+
   .open_vector:hover {
     transform: scale(1.5);
   }
+
   /* contact me start for desctop version */
   .contact_me_section {
     background-image: url(./image/desktop-version/contact\ form-\ background-shape-desktop.png);
