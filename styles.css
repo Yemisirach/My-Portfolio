@@ -730,10 +730,6 @@ input:invalid {
     border-radius: 24px;
   }
 
-  .snapshoot_zero {
-    width: 100%;
-  }
-
   .new_snapshot {
     width: 100%;
   }
@@ -766,6 +762,7 @@ input:invalid {
   }
 
   .snapshoot_zero {
+    width: 100%;
     padding: 24px 24px 24px 35px;
   }
 
@@ -878,7 +875,6 @@ input:invalid {
     display: flex;
     align-content: center;
     flex-direction: row;
-    list-style: none;
     opacity: 0;
     pointer-events: none;
     transform: translateY(10px);
