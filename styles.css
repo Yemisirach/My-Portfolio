@@ -370,9 +370,6 @@ form ul {
   color: #20265a;
 }
 
-/* .About_self_0ne {
-  width: 20%;
-} */
 .About_self_two {
   padding-left: 3%;
 }
@@ -796,6 +793,9 @@ input:invalid {
     padding-left: 10%;
     padding-right: 10%;
     color: #20265a;
+    height: 568px;
+    margin-top: 166px;
+    border: 1px;
   }
 
   .About_self1 {
