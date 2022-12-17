@@ -218,7 +218,6 @@ ul {
 
 /* work section start  */
 .grid-container {
-  width: 375px;
   height: 2728px;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -416,7 +415,7 @@ form ul {
 }
 
 .language_list {
-  height: 20vh;
+  height: 13vh;
   width: 327px;
   margin-bottom: 3%;
   background: #f7f7f9;
@@ -682,7 +681,7 @@ input:invalid {
     width: 100%;
     height: 2788px;
     display: grid;
-    justify-items: center;
+    justify-content: center;
     grid-template-rows: 2fr 2fr 2fr 2fr;
     background-color: #e5e5e5;
     margin-top: 50px;
