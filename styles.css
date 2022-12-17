@@ -463,14 +463,6 @@ form ul {
   rotate: 90deg;
 }
 
-.Desktop_vesion_list {
-  display: none;
-}
-
-.Desktop_vesion_img2 {
-  display: none;
-}
-
 /* contact me start mobile version */
 .contact_me_section {
   height: 769px;
@@ -564,15 +556,19 @@ input:invalid {
   background-color: #1d2fd4;
   color: #dfe1e6;
 }
+
 .Desktop_vesion_list {
   display: none;
 }
+
 .Desktop_vesion_img2 {
   display: none;
 }
+
 .Desktop_vesion_img {
   display: none;
 }
+
 /* ****Start Desktop **** */
 @media screen and (min-width: 768px) {
   .navbar_section {
@@ -582,6 +578,7 @@ input:invalid {
     justify-content: space-between;
     align-items: center;
   }
+
   ul li a {
     width: 25px;
     height: 20px;
