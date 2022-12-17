@@ -201,6 +201,10 @@ ul {
   padding: 10px;
 }
 
+.vecor img {
+  rotate: 90deg;
+}
+
 .social_media_list a img {
   padding: 20px, 20px, 20px 0;
   width: 25px;
@@ -365,6 +369,7 @@ form ul {
   padding-right: 24px;
   color: #20265a;
 }
+
 /* .About_self_0ne {
   width: 20%;
 } */
@@ -400,6 +405,7 @@ form ul {
   width: 300px;
   scale: (1 0.5);
 }
+
 .language_list_all {
   border-radius: 8px;
   border: 8px;
@@ -408,10 +414,10 @@ form ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   width: 327px;
 }
+
 .language_list {
   height: 20vh;
   width: 327px;
@@ -429,15 +435,14 @@ form ul {
   align-items: center;
   width: 118%;
 }
-.vecor img {
-  rotate: 90deg;
-}
+
 .Language {
   margin-top: 65px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
+
 .framework {
   display: flex;
   justify-content: space-between;
@@ -796,9 +801,11 @@ input:invalid {
   .About_self1 {
     padding: 10% 0 0 0;
   }
+
   .About_self_one {
     width: 40%;
   }
+
   .About_self_one p {
     width: 100%;
     line-height: 100%;
@@ -819,17 +826,18 @@ input:invalid {
     height: 101px;
     padding-top: 30px;
   }
+
   .language_list_all {
     margin: 5px;
     border-radius: 8px;
     border: 8px;
     border-color: #ffa760;
-    align-items: center;
     list-style: none;
     display: flex;
     flex-direction: row;
     align-items: center;
   }
+
   .language_list {
     height: 100px;
     width: 100px;
@@ -840,21 +848,20 @@ input:invalid {
     padding: 10px 0 0 25px;
     border: 1px;
   }
+
   .vecor {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 180%;
   }
-  .vecor img {
-    rotate: 90deg;
-    padding-left: 10%;
-  }
+
   .Language {
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
+
   .framework {
     display: flex;
     padding-bottom: 15px;
