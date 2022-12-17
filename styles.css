@@ -572,7 +572,15 @@ input:invalid {
   background-color: #1d2fd4;
   color: #dfe1e6;
 }
-
+.Desktop_vesion_list {
+  display: none;
+}
+.Desktop_vesion_img2 {
+  display: none;
+}
+.Desktop_vesion_img {
+  display: none;
+}
 /* ****Start Desktop **** */
 @media screen and (min-width: 768px) {
   .navbar_section {
