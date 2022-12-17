@@ -71,14 +71,6 @@ body {
   display: block;
 }
 
-.drop_downbtn a:hover {
-  background-color: rgb(69, 69, 183);
-}
-
-.dropdown_buttom:hover .drop_downbtn {
-  display: block;
-}
-
 .About {
   font-weight: 400;
   padding: 10px;
@@ -590,7 +582,6 @@ input:invalid {
     justify-content: space-between;
     align-items: center;
   }
-
   ul li a {
     width: 25px;
     height: 20px;
@@ -617,6 +608,7 @@ input:invalid {
     align-items: center;
     box-shadow: none;
     padding-right: 100px;
+    font-weight: 700;
   }
 
   .drop_downbtn a {
@@ -629,14 +621,6 @@ input:invalid {
 
   .snapshoot_zero a {
     padding-left: 17px;
-  }
-
-  .drop_downbtn a:hover {
-    display: none;
-  }
-
-  .dropdown_buttom:hover .drop_downbtn {
-    display: none;
   }
 
   .ellipse_3 p,
@@ -824,8 +808,8 @@ input:invalid {
     background-image: url(./image/desktop-version/about\ myself\ -\ background-\ shape-\ desktop.png);
     background-repeat: no-repeat;
     background-position: cover;
-    width: 90%;
     display: flex;
+    justify-content: center;
     padding-left: 10%;
     padding-right: 10%;
     color: #20265a;
@@ -844,7 +828,6 @@ input:invalid {
   .About_self p {
     font-size: 20px;
     line-height: 100%;
-    margin: 0;
     margin-top: 1%;
   }
 
@@ -860,7 +843,6 @@ input:invalid {
     width: 10%;
     height: 101px;
     padding-top: 30px;
-    margin: 0;
   }
 
   .dropdawn {
@@ -876,6 +858,10 @@ input:invalid {
     align-items: center;
     position: relative;
     margin-top: 70%;
+  }
+
+  .Language button {
+    width: 335px;
   }
 
   .Language ul {
@@ -909,7 +895,7 @@ input:invalid {
   }
 
   .framework {
-    width: 300px;
+    width: 335px;
     display: flex;
     justify-content: space-between;
     align-items: center;
