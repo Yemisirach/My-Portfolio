@@ -365,6 +365,12 @@ form ul {
   padding-right: 24px;
   color: #20265a;
 }
+/* .About_self_0ne {
+  width: 20%;
+} */
+.About_self_two {
+  padding-left: 3%;
+}
 
 .About_self_star {
   font-weight: 700;
@@ -394,73 +400,49 @@ form ul {
   width: 300px;
   scale: (1 0.5);
 }
-
-.Language {
-  display: flex;
-  justify-content: space-between;
+.language_list_all {
+  border-radius: 8px;
+  border: 8px;
+  border-color: #ffa760;
   align-items: center;
-  position: relative;
-}
-
-.About_self p {
-  font-size: 20px;
-}
-
-.dropdawn {
-  height: 10vh;
-  display: flex;
-  align-items: center;
-}
-
-.Language ul {
-  position: absolute;
-  background-color: antiquewhite;
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  flex-direction: column;
   list-style: none;
-  border-radius: 5px;
-  opacity: 0;
-  pointer-events: none;
-  transform: translateY(10px);
-  transform: all 0.4s ease;
-  padding: 5px;
-}
-
-.Language button:focus + ul {
-  opacity: 1;
-  pointer-events: all;
-  transform: translate(0);
-}
-
-.language_list {
-  align-items: center;
   display: flex;
-  justify-content: flex-start;
-  width: 300px;
-  height: 66px;
-  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 327px;
+}
+.language_list {
+  height: 20vh;
+  width: 327px;
+  margin-bottom: 3%;
+  background: #f7f7f9;
+  align-items: center;
+  justify-content: center;
+  border: 1px;
+  padding: 5px 0 0 10px;
 }
 
-.language_list h4 {
-  padding-left: 10px;
-  font-size: 18px;
-}
-
-.framework {
-  width: 300px;
+.vecor {
   display: flex;
   justify-content: space-between;
-  padding: 10px 5px 10px 10px;
-  color: black;
+  align-items: center;
+  width: 118%;
 }
-
-.open_vector {
-  /* motion-rotation: reverse; */
-  transform: rotate(360deg);
+.vecor img {
   rotate: 90deg;
+}
+.Language {
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.framework {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 118%;
 }
 
 /* contact me start mobile version */
@@ -806,7 +788,6 @@ input:invalid {
     background-repeat: no-repeat;
     background-position: cover;
     display: flex;
-    justify-content: center;
     padding-left: 10%;
     padding-right: 10%;
     color: #20265a;
@@ -815,16 +796,13 @@ input:invalid {
   .About_self1 {
     padding: 10% 0 0 0;
   }
-
-  .About_self1 p {
-    width: 70%;
-    margin: 1%;
-    line-height: 100%;
+  .About_self_one {
+    width: 40%;
   }
-
-  .About_self p {
-    font-size: 20px;
+  .About_self_one p {
+    width: 100%;
     line-height: 100%;
+    font-size: 20px;
     margin-top: 1%;
   }
 
@@ -841,75 +819,48 @@ input:invalid {
     height: 101px;
     padding-top: 30px;
   }
-
-  .dropdawn {
-    height: 2vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .Language {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    margin-top: 70%;
-  }
-
-  .Language button {
-    width: 335px;
-  }
-
-  .Language ul {
-    position: relative;
-    display: flex;
-    align-content: center;
-    flex-direction: row;
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(10px);
-    transform: all 0.4s ease;
-    width: 300px;
-    height: 100px;
+  .language_list_all {
     margin: 5px;
-    background: #f7f7f9;
     border-radius: 8px;
     border: 8px;
     border-color: #ffa760;
     align-items: center;
     list-style: none;
-  }
-
-  .language_list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
   }
-
-  .language_list h4 {
-    padding-left: 10px;
-    font-size: 18px;
+  .language_list {
+    height: 100px;
+    width: 100px;
+    margin-right: 3%;
+    background: #f7f7f9;
+    align-content: center;
+    justify-content: center;
+    padding: 10px 0 0 25px;
+    border: 1px;
   }
-
-  .framework {
-    width: 335px;
+  .vecor {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: black;
+    width: 180%;
   }
-
-  .Framework {
-    margin-top: 36%;
-  }
-
-  .open_vector {
-    /* motion-rotation: reverse; */
+  .vecor img {
     rotate: 90deg;
+    padding-left: 10%;
   }
-
-  .open_vector:hover {
-    transform: scale(1.5);
+  .Language {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .framework {
+    display: flex;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+    width: 170%;
   }
 
   /* contact me start for desctop version */
