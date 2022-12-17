@@ -433,7 +433,7 @@ form ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 118%;
+  width: 90%;
 }
 
 .Language {
@@ -853,7 +853,7 @@ input:invalid {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 180%;
+    width: 140%;
   }
 
   .Language {
@@ -867,7 +867,7 @@ input:invalid {
     padding-bottom: 15px;
     justify-content: space-between;
     align-items: center;
-    width: 170%;
+    width: 140%;
   }
 
   /* contact me start for desctop version */
