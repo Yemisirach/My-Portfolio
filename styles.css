@@ -349,7 +349,7 @@ form ul {
 }
 
 .see_project button:hover {
-  transform: translate(5px, 10px);
+  transform: translate(5px, 11px);
   background-image: linear-gradient(to right, pink, lightgreen);
 }
 
@@ -924,7 +924,7 @@ input:invalid {
   }
 
   .Get_btn button {
-    margin-top: 222px;
+    margin-top: 223px;
     margin-left: 150px;
     width: 20%;
     height: 50px;
