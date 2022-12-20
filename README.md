@@ -43,7 +43,7 @@ se up new repository and prepare it for development using best practices(e.g.lin
 
 ## 🚀 Live Demo
 
-https://yemisirach.github.io/My-Portfolio/
+<a href="https://yemisirach.github.io/My-Portfolio/">Live Demo link</a>
 
 <!-- GETTING STARTED -->
 
