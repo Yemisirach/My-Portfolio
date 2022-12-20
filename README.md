@@ -1,21 +1,19 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
+# Portfolio:YemisrachPortfolio
 
-Modify this file to match your project and remove sections that don't apply.
+Getting Started
+Cloning the project
+Git clone git@github.com:josuerushanika/yemisirachportfolio.github.io.git
+To get a local copy up and running follow these simple example steps.
+Prerequisites
 
-REQUIRED SECTIONS:
--work section
--About section
-<div align="center">
+Prerequisites A working browser application. VS code or anu other IDE NPM (Node Package Manager) Setup Install INSTALLING AND TESTING WEBHINT
+npm init -y
 
-  <h3><b>Microverse README Template</b></h3>
+npm install --save-dev hint@6.x For validation detection to use Webhint Run -npx hint . INSTALLING AND TESTING STYLEHINT
 
-</div>
-
-<!-- TABLE OF CONTENTS -->
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x For validation detection to use Webhint Run
 
 # 📗 Table of Contents
 
@@ -23,6 +21,8 @@ REQUIRED SECTIONS:
   - [🛠 Built With](#built-with)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
 - [👥 Authors](#authors)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
@@ -31,44 +31,35 @@ REQUIRED SECTIONS:
 
 # 📖 [My-portfolio] <a name="about-project"></a>
 
-> Build a personal portfolio site.Use images and backgrounds to enhance the look of the website.
->  This project is a mobile version of the portfolio profile. FIGMA template is introduced to build the project.
+Description for the fris mileston in he process of creating your portfolio website.
 
-**[My-portfolio]** is a...
+se up new repository and prepare it for development using best practices(e.g.linters). build the frist 2 section of the mobile frist and desktop verision using the templae you chose.
+
+[My-portfolio] is a...
 
 ## 🛠 Built With <a name="built-with"></a>
--Marke up languages
 
--Technologies use
-## Live Demo (if available)
-+ HTML and CSS
-+ Linters
-+ GitHub
-<!-- LIVE DEMO -->
+-Client
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://yemisirach.github.io/My-Portfolio/)
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-All the checks are done with linters.HTML and CSS files are written following FIGMA desisn.
-Always check the output whether it is matching withe required one.
-### Prerequisites
-### Setup
+To get a local copy up and runing follow these simple example steps.
+1.Clone the Repo or Download the Zip file or git clone git@github.com:Yemisirach/My-Portfoli](https://github.com/Yemisirach/My-Portfolio.git)o.
+Open it with the live server
+##Prerequisies
+In order to run this pproject need.
+##Setup
+Clone this repository to your desired folder:
 
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-portfolio.git 
+  git clone git@github.com:Yemisirach/yemisirachPortfolio.github.io
 ```
-### Install
-### Usage
-### Run tests
-### Deployment
-
-## 👥 Authors <a name="authors"></a>
 
 👤 **Yemisirach**
 
@@ -77,6 +68,7 @@ Always check the output whether it is matching withe required one.
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 -GitHub: https://github.com/Yemisirach
+
 - Twitter: https://twitter.com/TamiratYemisrach
 - LinkedIn: https://www.linkedin.com/in/yemisirach
 
@@ -86,7 +78,7 @@ Always check the output whether it is matching withe required one.
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Microvers rewiwer...
 -Hat tip to anyone whose code was used
 
 <!-- LICENSE -->
