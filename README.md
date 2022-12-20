@@ -41,9 +41,9 @@ se up new repository and prepare it for development using best practices(e.g.lin
 
 -Client
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo
 
-- [Live Demo Link](https://yemisirach.github.io/My-Portfolio/)
+https://yemisirach.github.io/My-Portfolio/
 
 <!-- GETTING STARTED -->
 
