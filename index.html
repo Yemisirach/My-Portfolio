@@ -13,8 +13,8 @@
   </head>
   <body>
     <!-- header start -->
-      <header class="navbar_section" id="overlay"> 
-        <div class="navbar_logo"><a href="#">YEMI</a></div>
+      <header class="navbar_section" id="overl"> 
+        <div id="navbar_logo"><a href="#">YEMI</a></div>
         <div class="dropdown_buttom">
           <nav>
             <svg id="btn" class="nav_botton  hamb hamRotate ham" viewBox="0 0 100 100" width="60" onclick="this.classList.toggle('active')">
@@ -36,9 +36,23 @@
           </nav>
           </div>
       </header>
+      <div id="menu-show" class="menu-container ">  
+        <span id="menu-close" class="menu-close">              
+                      
+        </span>          
+        <div class="menu-list">
+          <ul>
+            <li><nav><a class="menu-item" href="#portfolio">Portfolio</a></nav></li>
+            <li><nav><a class="menu-item" href="#about">About</a></nav></li>
+            <li><nav><a class="menu-item" href="#contact">Contact</a></nav></li>
+          </ul>            
+        </div>
+        <div class="base-line">            
+        </div>
+      </div>
       <!-- header end -->
       <!-- Home start -->
-      <section class="About">
+      <section class="About" id="About">
         <div class="ellipse">
           <img class="ellipse_zero" src="./image/Ellipse 8.png" alt="ellipse">
         <div class="ellipse_1">
@@ -84,7 +98,7 @@
     
     <!-- Home section start -->
   <!-- wotk section start -->
-  <section class="work grid-container">
+  <section class="work grid-container" id="portfolio" >
 <div class="snapshoot">
  <div class="new_snapshot"> 
   <img class="mobile_version_img" src="./image/Snapshoot Portfolio.png" alt="snapchat">
@@ -263,7 +277,7 @@
 
 </section>
 <!-- About section end -->
-<section class="contact_me_section">
+<section class="contact_me_section" id="contact">
 <div class="Contact_me">
   <header class="contact_header">
     <h2>Contact me</h2>
