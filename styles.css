@@ -322,6 +322,13 @@ form ul {
 .connect {
   padding-left: 13px;
   padding-top: 10px;
+  width: 117px;
+  height: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
 }
 
 .social_media {
@@ -778,7 +785,7 @@ input:invalid {
     height: 122px;
     font-size: 60px;
     align-items: center;
-    padding: 10% 6.5% 0 20%;
+    padding: 15% 6.5% 0 20%;
     line-height: 60px;
     margin-bottom: 0;
   }
@@ -799,8 +806,8 @@ input:invalid {
   }
 
   .connect {
-    padding-left: 13px;
-    padding-top: 10px;
+    padding-left: 11px;
+    padding-top: 30px;
     width: 15%;
   }
 
@@ -950,7 +957,7 @@ input:invalid {
   }
 
   .New_contact {
-    width: 100%;
+    padding-top: 20px;
     margin: 0;
   }
 
