@@ -121,7 +121,7 @@ body {
 .close-icon {
   display: flex;
   justify-content: flex-end;
-  padding-right: 100px;
+  padding-right: 80px;
   padding-top: 24px;
 }
 
