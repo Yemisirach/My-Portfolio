@@ -1,6 +1,7 @@
 const logo = document.getElementById("navbar_logo");
 const button = document.getElementById("btn");
-const list = document.getElementById("list");
+
+// const list = document.getElementById("list");
 const menuShow = document.getElementById("menu-show");
 const home = document.getElementById("About");
 const closeMenus = document.getElementById("menu-close");
@@ -30,8 +31,8 @@ const closeMenu = () => {
 };
 
 button.addEventListener("click", openMenu);
-button.addEventListener("click", closeMenu);
+closeMenus.addEventListener("click", closeMenu);
 
 menuList.forEach((item) => {
-  item.addEventListener("click", closeMenus);
+  item.addEventListener("click", closeMenu);
 });
