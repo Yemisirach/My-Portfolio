@@ -26,14 +26,6 @@ body {
   height: 48px;
 }
 
-#navbar_logo a {
-  font-size: 26px;
-  text-decoration: none;
-  color: rgb(41, 41, 106);
-  font-weight: bold;
-  font-family: "Poppins", sans-serif;
-}
-
 .nav_botton {
   cursor: pointer;
   align-items: center;
@@ -125,12 +117,12 @@ body {
   justify-content: flex-end;
   padding: 16px 38px 32px 0;
 }
+
 .close-icon {
   display: flex;
   justify-content: flex-end;
   padding-right: 100px;
   padding-top: 24px;
-  width: 15px;
 }
 
 ul {
@@ -146,6 +138,10 @@ form ul {
   padding-inline-start: 28px;
 }
 
+.form_input li {
+  list-style: none;
+}
+
 .menu-list ul li {
   width: 100%;
   height: calc(100% - 80px);
@@ -156,6 +152,10 @@ form ul {
 
 .menu-list nav {
   padding-bottom: 40px;
+}
+
+.menu-list {
+  height: calc(100% - 140px);
 }
 
 .menu-item {
@@ -174,6 +174,7 @@ form ul {
   background: #0d151e;
   border-radius: 10px;
   margin: auto;
+  margin-left: 120px;
 }
 
 .blur-filter {
@@ -201,6 +202,14 @@ form ul {
   padding: 12px 12px;
   text-decoration: none;
   display: block;
+}
+
+#navbar_logo a {
+  font-size: 26px;
+  text-decoration: none;
+  color: rgb(41, 41, 106);
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
 
 .About {
@@ -612,10 +621,6 @@ form ul {
   padding: 171px 24px 15px 24px;
 }
 
-.form_input li {
-  list-style: none;
-}
-
 textarea {
   position: absolute;
   background-color: #fff;
@@ -726,6 +731,7 @@ input:invalid {
   .menu-container {
     display: none;
   }
+
   #btn {
     display: none;
   }
