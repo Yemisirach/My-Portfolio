@@ -7,11 +7,8 @@ This is an example of how you may give instructions on setting up your project l
 Modify this file to match your project and remove sections that don't apply.
 
 REQUIRED SECTIONS:
--work section
--About section
+-Mobile Menu
 <div align="center">
-
-  <h3><b>Microverse README Template</b></h3>
 
 </div>
 
@@ -33,15 +30,18 @@ REQUIRED SECTIONS:
 
 > Build a personal portfolio site.Use images and backgrounds to enhance the look of the website.
 >  This project is a mobile version of the portfolio profile. FIGMA template is introduced to build the project.
+>  Modofied mobile menu
 
 **[My-portfolio]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
--Marke up languages
+-Markup languadge
+-programming languages
 
 -Technologies use
 ## Live Demo (if available)
 + HTML and CSS
++ Javascript
 + Linters
 + GitHub
 <!-- LIVE DEMO -->
@@ -64,8 +64,11 @@ Always check the output whether it is matching withe required one.
   git clone git@github.com:myaccount/my-portfolio.git 
 ```
 ### Install
+npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
 ### Usage
 ### Run tests
+npx eslint .
+npx stylelint "**/*.{css,scss}"
 ### Deployment
 
 ## 👥 Authors <a name="authors"></a>
