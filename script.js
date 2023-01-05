@@ -10,7 +10,7 @@ const openMenu = () => {
   menuShow.classList.add("show-menu");
   logo.classList.add("blur-filter");
   home.classList.add("blur-filter");
-  button.classList.add("blur-filter");
+  // button.classList.add("blur-filter");
   mainBody.classList.add("blur-filter");
 };
 
@@ -18,7 +18,7 @@ const closeMenu = () => {
   menuShow.classList.remove("show-menu");
   logo.classList.remove("blur-filter");
   home.classList.remove("blur-filter");
-  button.classList.remove("blur-filter");
+  // button.classList.remove("blur-filter");
   mainBody.classList.remove("blur-filter");
 };
 
@@ -97,6 +97,14 @@ const projectDetails = [
   },
 ];
 
+// const project = document.getElementById("grid-container");
+// document.getElementById("grid-container").innerHTML = "I have changed!";
+//const projectcad = document.querySelectorAll("snapshoot");
+// console.log(projectcad);
+// const snapshoot = document.querySelector('.snapshoot_revers');
+// const cadDaital = document.querySelector('.profile');
+// const langList = document.querySelector('.skill');
+
 const creatProjectDetails = (item) => {
   const snapshootDetails = document.createElement("div");
   if (item.flip === 1) {
@@ -118,12 +126,12 @@ const creatProjectDetails = (item) => {
 
   const innerHTML = `<img src="${item.image}" alt="${item.alt}">
   <div class="card-sizing">
-    <h2 class="card-title-text snapshoot_1">${item.title}</h2>
+    <h2 class="card-title-text">${item.title}</h2>
     <div class="card-list">
       ${roles.join("")}
     </div>
-    <p class="card-main-text ">${item.description}</p>
-    <ul class="skill">
+    <p class="card-main-text">${item.description}</p>
+    <ul class="card-tools-list">
       ${skillsList.join("")}
     </ul>
     <div class="card-button-box">
@@ -202,10 +210,10 @@ const popupDetails = (item) => {
 const createPopup = (button, callback = () => null) => {
   const id = parseInt(button.getAttribute("card-id"), 10);
   const data = projectDetails.filter((item) => item.id === id);
-  logo.classList.add("blur-filter");
-  home.classList.add("blur-filter");
-  button.classList.add("blur-filter");
-  mainBody.classList.add("blur-filter");
+  // logo.classList.add("blur-filter");
+  // home.classList.add("blur-filter");
+  // button.classList.add("blur-filter");
+  // mainBody.classList.add("blur-filter");
   document.getElementById("popup-project-card-section").innerHTML =
     popupDetails(data[0]);
   return callback();
@@ -217,21 +225,25 @@ const closePopup = () => {
   const popupCloseButton = document.getElementById("popup-close-button");
 
   logo.classList.add("blur-filter");
-  menu.classList.add("blur-filter");
+  home.classList.add("blur-filter");
+  button.classList.add("blur-filter");
   mainBody.classList.add("blur-filter");
 
   popupCloseButton.addEventListener("click", () => {
     document.getElementById("popup-project-card-section").innerHTML = "";
     document.body.style.margin = "";
     document.body.style.overflow = "";
+
     logo.classList.remove("blur-filter");
-    menu.classList.remove("blur-filter");
+    home.classList.remove("blur-filter");
+    button.classList.remove("blur-filter");
     mainBody.classList.remove("blur-filter");
   });
   popupCardContainer.addEventListener("click", () => {
     document.getElementById("popup-project-card-section").innerHTML = "";
     document.body.style.margin = "";
     document.body.style.overflow = "";
+    button.classList.remove("blur-filter");
   });
   for (let i = 0; i < popupCardContainer.childNodes.length; i += 1) {
     popupCardContainer.childNodes[i].addEventListener("click", (event) => {

@@ -821,13 +821,6 @@ input:invalid {
   }
 
   /* work section */
-  .card-list {
-    display: flex;
-    justify-content: space-between;
-    width: 400px;
-    align-items: center;
-    padding-left: 18px;
-  }
   .grid-container {
     width: 100%;
     height: 2788px;
@@ -847,7 +840,7 @@ input:invalid {
     width: 100%;
     height: 494px;
     display: flex;
-    margin: 5% 5% 5% 0%;
+    margin: 10% 10% 10% 5%;
     background: #fff;
     border: 6%;
     border-radius: 24px;
@@ -860,6 +853,7 @@ input:invalid {
   .snapshoot_revers {
     display: flex;
     flex-direction: row-reverse;
+    margin: 0% 10%;
   }
 
   .mobile_version_img {
@@ -1169,6 +1163,143 @@ input:invalid {
   padding: 16px;
 }
 
+#popup-card-section {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  background: transparent;
+  justify-content: center;
+  padding-top: 50px;
+  margin: auto;
+}
+
+.popup-card {
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding: 16px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.card-title-text {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 12px 0;
+}
+
+.card-list {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.popup-close-button {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-details-container {
+  width: 100%;
+}
+
+.popup-details-container > img {
+  width: 100%;
+  margin: 20px 0 12px;
+}
+
+.popup-card-details-container {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.card-main-text {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin: 12px 0;
+}
+
+.card-tools-list {
+  display: flex;
+  align-items: flex-start;
+  list-style: none;
+  padding-inline-start: 0;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.card-tools-list li {
+  width: 100%;
+}
+
+.popup-card-description {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin: 12px 0;
+  width: 100%;
+}
+
+.popup-tools-sizing {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-card-separator {
+  width: 100%;
+  height: 1px;
+  background-color: #ebecf0;
+  margin: 20px 0;
+}
+
+.popup-card-links {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 15px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.popup-button {
+  min-width: 110px;
+  min-height: 50px;
+  min-height: 15px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: normal;
+  justify-content: center;
+}
+
+.popup-button:first-child {
+  margin-right: 12px;
+}
+
 @media screen and (min-width: 768px) {
   .card-canopy {
     font-weight: 500;
@@ -1185,5 +1316,59 @@ input:invalid {
     max-width: 170px;
     margin-right: 0;
     padding-right: 0;
+  }
+
+  .popup-card {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+  }
+
+  .card-title-text {
+    font-size: 40px;
+    line-height: 52px;
+    margin: 0;
+  }
+
+  .card-list {
+    padding: 20px 0;
+  }
+
+  .popup-details-container > img {
+    width: 100%;
+  }
+
+  .popup-card-details-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .card-sizing {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+  }
+
+  .card-main-text {
+    font-size: 16px;
+  }
+
+  .popup-card-description {
+    width: auto;
+  }
+
+  .popup-tools-sizing {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 265px;
+    padding-right: 10px;
+  }
+
+  .popup-card-links {
+    margin: 0;
   }
 }
