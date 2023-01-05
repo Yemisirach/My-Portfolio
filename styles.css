@@ -821,6 +821,13 @@ input:invalid {
   }
 
   /* work section */
+  .card-list {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+    padding-left: 18px;
+  }
   .grid-container {
     width: 100%;
     height: 2788px;
@@ -1085,7 +1092,6 @@ input:invalid {
   }
 }
 
-
 /* /// */
 .card-bullet-separator {
   width: 8px;
@@ -1162,7 +1168,6 @@ input:invalid {
   mix-blend-mode: multiply;
   padding: 16px;
 }
-
 
 @media screen and (min-width: 768px) {
   .card-canopy {

@@ -41,12 +41,12 @@ const projectDetails = [
       "A daily selection of privately personalized reads; no accounts or sign-ups are required.",
     image: "./image/Snapshoot Portfolio.png",
     alt: "tonic project image",
-    companyRoles: ["Canopy", "Back End Dev", "2015" ],
+    companyRoles: ["Canopy", "Back End Dev", "2015"],
     skills: ["html", "css", "javascript"],
     liveLink: { link: "./index.html", text: "See live" },
     sourceLink: { link: "https://github.com/Yemisirach/MyPortfolio" },
     buttonText: "See Project",
-    id: 1
+    id: 1,
   },
 
   {
@@ -63,7 +63,7 @@ const projectDetails = [
     },
     buttonText: "See Project",
     flip: 1,
-    id: 2
+    id: 2,
   },
 
   {
@@ -72,13 +72,14 @@ const projectDetails = [
       "A daily selection of privately personalized reads; no accounts or sign-ups are required.",
     image: "./image/desktop-version/Snapshoot Portfolio3.png",
     alt: "tonic project image",
-    companyRoles: [ "FACEBOOK 360", "Back End Dev", "2015"],
+    companyRoles: ["FACEBOOK 360", "Back End Dev", "2015"],
     skills: ["html", "css", "javascript"],
     liveLink: { link: "./index.html", text: "See live" },
     sourceLink: {
-      link: "https://github.com/Yemisirach/MyPortfolio" },
+      link: "https://github.com/Yemisirach/MyPortfolio",
+    },
     buttonText: "See Project",
-    id: 3
+    id: 3,
   },
   {
     title: "Uber Navigation",
@@ -92,17 +93,9 @@ const projectDetails = [
     sourceLink: { link: "https://github.com/Yemisirach/MyPortfolio" },
     buttonText: "See Project",
     flip: 1,
-    id: 4
+    id: 4,
   },
 ];
-
-// const project = document.getElementById("grid-container");
-// document.getElementById("grid-container").innerHTML = "I have changed!";
-//const projectcad = document.querySelectorAll("snapshoot");
-// console.log(projectcad);
-// const snapshoot = document.querySelector('.snapshoot_revers');
-// const cadDaital = document.querySelector('.profile');
-// const langList = document.querySelector('.skill');
 
 const creatProjectDetails = (item) => {
   const snapshootDetails = document.createElement("div");
@@ -120,17 +113,17 @@ const creatProjectDetails = (item) => {
   });
 
   const skillsList = item.skills.map(
-    (count) => `<li class="card-tools">${count}</li>`,
+    (count) => `<li class="card-tools">${count}</li>`
   );
 
   const innerHTML = `<img src="${item.image}" alt="${item.alt}">
   <div class="card-sizing">
-    <h2 class="card-title-text">${item.title}</h2>
+    <h2 class="card-title-text snapshoot_1">${item.title}</h2>
     <div class="card-list">
       ${roles.join("")}
     </div>
-    <p class="card-main-text">${item.description}</p>
-    <ul class="card-tools-list">
+    <p class="card-main-text ">${item.description}</p>
+    <ul class="skill">
       ${skillsList.join("")}
     </ul>
     <div class="card-button-box">
@@ -139,7 +132,7 @@ const creatProjectDetails = (item) => {
       } class="card-button popup-card-button">See Project</button>
     </div>
   </div>`;
-  
+
   snapshootDetails.innerHTML = innerHTML;
   cardWorksWrapper.appendChild(snapshootDetails);
 };
@@ -155,7 +148,7 @@ const popupDetails = (item) => {
   });
 
   const skillsList = item.skills.map(
-    (count) => `<li class="card-tools">${count}</li>`,
+    (count) => `<li class="card-tools">${count}</li>`
   );
 
   const innerHtml = `<div id="popup-card-container"></div>
@@ -169,7 +162,7 @@ const popupDetails = (item) => {
           </button>
         </nav>
         <div class="card-list">
-          ${roles.join('')}
+          ${roles.join("")}
         </div>
       </header>
       <section class="popup-details-container">
@@ -180,19 +173,19 @@ const popupDetails = (item) => {
           <p class="card-main-text popup-card-description">${popupCardDescription}</p>
           <div class="popup-tools-sizing">
             <ul class="card-tools-list">
-              ${skillsList.join('')}
+              ${skillsList.join("")}
             </ul>
             <div class="popup-card-separator"></div>
             <div class="popup-card-links">
               <a href="${
-  item.liveLink.link
-}" target="_blank" class="card-button popup-button">
+                item.liveLink.link
+              }" target="_blank" class="card-button popup-button">
                 <span>See live</span>
                 <img src="./image/live-link-Icon.png" alt="live link icon">
               </a>
               <a href="${
-  item.sourceLink.link
-}" target="_blank" class="card-button popup-button">
+                item.sourceLink.link
+              }" target="_blank" class="card-button popup-button">
                 <span>See source</span>
                 <img src="./image/github-Vector.png" alt="github link icon">
               </a>
@@ -207,53 +200,50 @@ const popupDetails = (item) => {
 };
 
 const createPopup = (button, callback = () => null) => {
-  const id = parseInt(button.getAttribute('card-id'), 10);
+  const id = parseInt(button.getAttribute("card-id"), 10);
   const data = projectDetails.filter((item) => item.id === id);
   logo.classList.add("blur-filter");
   home.classList.add("blur-filter");
   button.classList.add("blur-filter");
   mainBody.classList.add("blur-filter");
-  document.getElementById('popup-project-card-section').innerHTML = popupDetails(data[0]);
+  document.getElementById("popup-project-card-section").innerHTML =
+    popupDetails(data[0]);
   return callback();
 };
 
 // Close popup
 const closePopup = () => {
-  const popupCardContainer = document.getElementById('popup-card-container');
-  const popupCloseButton = document.getElementById('popup-close-button');
+  const popupCardContainer = document.getElementById("popup-card-container");
+  const popupCloseButton = document.getElementById("popup-close-button");
 
-  logo.classList.add('blur-filter');
-  menu.classList.add('blur-filter');
-  mainBody.classList.add('blur-filter');
+  logo.classList.add("blur-filter");
+  menu.classList.add("blur-filter");
+  mainBody.classList.add("blur-filter");
 
-  popupCloseButton.addEventListener('click', () => {
-    document.getElementById('popup-project-card-section').innerHTML = '';
-    document.body.style.margin = '';
-    document.body.style.overflow = '';
-    logo.classList.remove('blur-filter');
-    menu.classList.remove('blur-filter');
-    mainBody.classList.remove('blur-filter');
+  popupCloseButton.addEventListener("click", () => {
+    document.getElementById("popup-project-card-section").innerHTML = "";
+    document.body.style.margin = "";
+    document.body.style.overflow = "";
+    logo.classList.remove("blur-filter");
+    menu.classList.remove("blur-filter");
+    mainBody.classList.remove("blur-filter");
   });
-  popupCardContainer.addEventListener('click', () => {
-    document.getElementById('popup-project-card-section').innerHTML = '';
-    document.body.style.margin = '';
-    document.body.style.overflow = '';
+  popupCardContainer.addEventListener("click", () => {
+    document.getElementById("popup-project-card-section").innerHTML = "";
+    document.body.style.margin = "";
+    document.body.style.overflow = "";
   });
   for (let i = 0; i < popupCardContainer.childNodes.length; i += 1) {
-    popupCardContainer.childNodes[i].addEventListener('click', (event) => {
+    popupCardContainer.childNodes[i].addEventListener("click", (event) => {
       event.stopPropagation();
     });
   }
 };
 
-const cardButton = document.querySelectorAll('.popup-card-button');
+const cardButton = document.querySelectorAll(".popup-card-button");
 cardButton.forEach((button) => {
-  button.addEventListener('click', () => {
-    document.body.style.overflow = 'hidden';
+  button.addEventListener("click", () => {
+    document.body.style.overflow = "hidden";
     createPopup(button, closePopup);
   });
 });
-
-
-
-
