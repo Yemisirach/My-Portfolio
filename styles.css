@@ -421,7 +421,7 @@ form ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  width: 250px;
+  /* width: 250px; */
   height: 70px;
 
   padding-top: 5px;
@@ -1064,6 +1064,12 @@ input:invalid {
     border-radius: 24px;
   }
 
+  .snapshoot > img {
+    width: 50%;
+    padding: 0 24px;
+    /* margin: auto; */
+    margin-left: 40px;
+  }
   .new_snapshot {
     width: 100%;
   }
@@ -1120,15 +1126,15 @@ input:invalid {
 
   .snapshoot_1 h2 {
     padding-bottom: 5px;
-    width: 496px;
+    /* width: 496px; */
     height: 46px;
     font-size: 40px;
     line-height: 52px;
   }
 
   .snapshoot p {
-    width: 496px;
-    height: 50px;
+    /* width: 496px; */
+    /* height: 50px; */
     color: #344563;
   }
 
@@ -1334,7 +1340,7 @@ input:invalid {
   }
 
   .card-list {
-    padding: 20px 0;
+    /* padding: 20px 0; */
   }
 
   .popup-details-container > img {
@@ -1355,12 +1361,14 @@ input:invalid {
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding: 0 5px;
+    /* justify-content: space-around; */
+    padding: 0 24px;
     border: 1px;
   }
 
   .card-main-text {
     font-size: 16px;
+    margin: 0;
   }
 
   .popup-card-description {
@@ -1383,6 +1391,15 @@ input:invalid {
 
   .popup-card-links {
     margin: 0;
+  }
+  .card-tools-list {
+    display: flex;
+    align-items: flex-start;
+    list-style: none;
+    padding-inline-start: 0;
+    justify-content: space-between;
+    width: 200px;
+    padding-top: 30px;
   }
 }
 

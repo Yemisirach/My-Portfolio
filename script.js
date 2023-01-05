@@ -131,9 +131,11 @@ const creatProjectDetails = (item) => {
       ${roles.join("")}
     </div>
     <p class="card-main-text">${item.description}</p>
-    <ul class="card-tools-list">
-      ${skillsList.join("")}
-    </ul>
+    <div>
+      <ul class="card-tools-list">
+        ${skillsList.join("")}
+      </ul>
+    </div>
     <div class="card-button-box">
       <button card-id=${
         item.id
