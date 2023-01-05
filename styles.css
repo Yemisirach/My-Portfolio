@@ -142,6 +142,10 @@ form ul {
   list-style: none;
 }
 
+.card-tools-list li {
+  width: 100%;
+}
+
 .menu-list ul li {
   width: 100%;
   height: calc(100% - 80px);
@@ -348,6 +352,17 @@ form ul {
   rotate: 90deg;
 }
 
+.popup-details-container > img {
+  width: 100%;
+  margin: 20px 0 12px;
+}
+
+.card-button > img {
+  width: 18px;
+  height: 20px;
+  padding-left: 12px;
+}
+
 .social_media_list a img {
   padding: 20px, 20px, 20px 0;
   width: 25px;
@@ -389,17 +404,6 @@ form ul {
   line-height: 16px;
 }
 
-.snapshoot {
-  gap: 12px;
-  width: 327px;
-  left: 24px;
-  right: 24px;
-  border-radius: 16px;
-  border: #dfe1e6;
-  background-color: white;
-  margin: auto;
-}
-
 .mobile_version_img {
   margin: 16px 16px 2px 16px;
 }
@@ -421,9 +425,7 @@ form ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* width: 250px; */
   height: 70px;
-
   padding-top: 5px;
 }
 
@@ -449,12 +451,13 @@ form ul {
   font-size: 17px;
   width: 120px;
 }
+
 #popup-card-section {
   position: fixed;
   z-index: 10;
   left: 0;
   top: 0;
-  width: 327px;
+  width: 90%;
   height: 100%;
   overflow: scroll;
   overflow-x: hidden;
@@ -700,10 +703,27 @@ input:invalid {
 .Desktop_vesion_img {
   display: none;
 }
+
 .popup-card-details {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+}
+
+.snapshoot {
+  gap: 12px;
+  width: 327px;
+  left: 24px;
+  right: 24px;
+  background-color: white;
+  min-width: 287px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 40% 42px 88px;
 }
 
 /* /// */
@@ -764,12 +784,6 @@ input:invalid {
   line-height: 18px;
 }
 
-.card-button > img {
-  width: 18px;
-  height: 20px;
-  padding-left: 12px;
-}
-
 #popup-card-container {
   position: fixed;
   z-index: 1;
@@ -825,11 +839,6 @@ input:invalid {
   width: 100%;
 }
 
-.popup-details-container > img {
-  width: 100%;
-  margin: 20px 0 12px;
-}
-
 .popup-card-details-container {
   display: flex;
   box-sizing: border-box;
@@ -853,10 +862,6 @@ input:invalid {
   padding-inline-start: 0;
   justify-content: space-between;
   width: 200px;
-}
-
-.card-tools-list li {
-  width: 100%;
 }
 
 .popup-card-description {
@@ -1047,6 +1052,7 @@ input:invalid {
     grid-template-rows: 2fr 2fr 2fr 2fr;
     background-color: #e5e5e5;
     margin-top: 50px;
+    margin-left: 20%;
     border-top-left-radius: 50px;
   }
 
@@ -1054,22 +1060,15 @@ input:invalid {
     display: none;
   }
 
-  .snapshoot {
-    width: 100%;
-    height: 494px;
-    display: flex;
-    margin: 10% 10% 10% 5%;
-    background: #fff;
-    border: 6%;
-    border-radius: 24px;
-  }
-
   .snapshoot > img {
     width: 50%;
     padding: 0 24px;
+
     /* margin: auto; */
-    margin-left: 40px;
+
+    /* margin-left: 40px; */
   }
+
   .new_snapshot {
     width: 100%;
   }
@@ -1126,6 +1125,7 @@ input:invalid {
 
   .snapshoot_1 h2 {
     padding-bottom: 5px;
+
     /* width: 496px; */
     height: 46px;
     font-size: 40px;
@@ -1134,6 +1134,7 @@ input:invalid {
 
   .snapshoot p {
     /* width: 496px; */
+
     /* height: 50px; */
     color: #344563;
   }
@@ -1308,7 +1309,21 @@ input:invalid {
   .shape {
     display: none;
   }
+
   /* ******** */
+  .snapshoot {
+    display: flex;
+    background: #fff;
+    border: 6%;
+    border-radius: 24px;
+    width: 962px;
+    height: auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 7% 10% 7% 10%;
+  }
+
   .card-canopy {
     font-weight: 500;
     font-size: 18px;
@@ -1346,11 +1361,13 @@ input:invalid {
   .popup-details-container > img {
     width: 100%;
   }
+
   .popup-card-details {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
   }
+
   .popup-card-details-container {
     display: flex;
     justify-content: space-between;
@@ -1361,7 +1378,6 @@ input:invalid {
     width: 50%;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     padding: 0 24px;
     border: 1px;
   }
@@ -1374,6 +1390,7 @@ input:invalid {
   .popup-card-description {
     width: auto;
   }
+
   #popup-card-section {
     width: 100%;
     height: 100%;
@@ -1392,6 +1409,7 @@ input:invalid {
   .popup-card-links {
     margin: 0;
   }
+
   .card-tools-list {
     display: flex;
     align-items: flex-start;
@@ -1401,7 +1419,4 @@ input:invalid {
     width: 200px;
     padding-top: 30px;
   }
-}
-
-@media screen and (min-width: 768px) {
 }
