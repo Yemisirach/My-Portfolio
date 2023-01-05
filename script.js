@@ -70,7 +70,7 @@ const projectDetails = [
     title: "Tonic",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups are required.",
-    image: "./image/desktop-version/Snapshoot Portfolio3.png",
+    image: "./image/Snapshoot Portfolio (2).png",
     alt: "tonic project image",
     companyRoles: ["FACEBOOK 360", "Back End Dev", "2015"],
     skills: ["html", "css", "javascript"],
@@ -85,7 +85,7 @@ const projectDetails = [
     title: "Uber Navigation",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups are required.",
-    image: "./image/desktop-version/Snapshoot Portfolio2.png",
+    image: "./image/Snapshoot Portfolio (3).png",
     alt: "tonic project image",
     companyRoles: ["Uber", "Lead Developer", "2018"],
     skills: ["html", "css", "javascript"],
