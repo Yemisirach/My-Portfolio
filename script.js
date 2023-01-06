@@ -251,37 +251,56 @@ cardButton.forEach((button) => {
 });
 
 // *******************************
-let contact = document.getElementById("registration-form");
+let contact = document.getElementById("form");
 // contact.onsubmit = formSubmitChecker;
 
-const isUppercase = (email) => {
+const isUpperCaseEmail = (email) => {
   if (/[A-Z]/.test(email)) {
     return true;
   }
   return false;
 };
 
-contact.addEventListener('submit', (e) => {
-  e.preventDefault();
-  let errors = [];
-  let contactErrorsDisplay = document.getElementById("errorsDisplay");
-  contactErrorsDisplay.innerHTML = "";
-  let contactemail = e.target.email.value;
-  // Get their values
-  let contactemailValue = isUppercase(contactemail);
-  if (contactemailValue) {
-    errors.push("email field is required");
+contact.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const email = event.target.email.value;
+  const errorMsg = document.querySelector('.errorsDisplay');
+  const validEmail = !isUpperCaseEmail(email);
+
+  if (validEmail) {
+    errorMsg.style.display = 'none';
+    form.submit();
   } else {
-    contactErrorsDisplay.style.display = "none";
-    contact.submit();
+    errorMsg.style.display = 'block';
+    errorMsg.innerHTML = 'Please write email in small letters';
   }
-
-  if (errors.length > 0) {
-    // Stops the form from submitting
-    contactErrorsDisplay.style.display = "block";
-    for (let i = 0; i < errors.length; i++) {
-      contactErrorsDisplay.innerHTML += errors[i] + "<br>";
-    }
-  }
-
 });
+
+
+
+
+
+// contact.addEventListener('submit', (e) => {
+//   e.preventDefault();
+//   let errors = [];
+//   let contactErrorsDisplay = document.getElementById("errorsDisplay");
+//   contactErrorsDisplay.innerHTML = "";
+//   let contactemail = e.target.email.value;
+//   // Get their values
+//   let contactemailValue = isUppercase(contactemail);
+//   if (contactemailValue) {
+//     errors.push("email field is required");
+//   } else {
+//     contactErrorsDisplay.style.display = "none";
+//     contact.submit();
+//   }
+
+//   if (errors.length > 0) {
+//     // Stops the form from submitting
+//     contactErrorsDisplay.style.display = "block";
+//     for (let i = 0; i < errors.length; i++) {
+//       contactErrorsDisplay.innerHTML += errors[i] + "<br>";
+//     }
+//   }
+
+// });

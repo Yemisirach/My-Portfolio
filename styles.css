@@ -1421,7 +1421,7 @@ input:invalid {
   }
 }
 
-#errorsDisplay {
+.errorsDisplay {
   padding: 16px;
   border: 1px solid red;
   display: none;
@@ -1430,6 +1430,7 @@ input:invalid {
   background: #ffdce2;
   font-weight: bold;
   display: none;
+  margin-top: 215px;
 }
 
 input[type="submit"] {
