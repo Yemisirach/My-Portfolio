@@ -1422,15 +1422,16 @@ input:invalid {
 }
 
 .errorsDisplay {
-  padding: 16px;
+  padding: 5px;
+  width: 300px;
+  border-radius: 10px;
+  z-index: -1;
   border: 1px solid red;
   display: none;
   font-size: 18px;
   line-height: 1.5em;
   background: #ffdce2;
   font-weight: bold;
-  display: none;
-  margin-top: 215px;
 }
 
 input[type="submit"] {
@@ -1439,7 +1440,7 @@ input[type="submit"] {
   background: #d746dc;
   border: 0;
   font-size: 16px;
-  color: #ffffff;
+  color: #fff;
   margin-top: 10px;
   font-weight: 600;
 }
