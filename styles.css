@@ -1420,3 +1420,24 @@ input:invalid {
     padding-top: 30px;
   }
 }
+
+#errorsDisplay {
+  padding: 16px;
+  border: 1px solid red;
+  display: none;
+  font-size: 18px;
+  line-height: 1.5em;
+  background: #ffdce2;
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  width: auto;
+  padding: 16px 34px;
+  background: #d746dc;
+  border: 0;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 10px;
+  font-weight: 600;
+}
