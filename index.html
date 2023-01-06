@@ -157,18 +157,20 @@
       love to help with it
     </p>
   </div>
-  <form class="form" action="https://formspree.io/f/xpznodvr" method="post">
-  <ul class="form_input">
-    <li><input name="Fname" id="name" type="text" class="text"
-      maxlength="30"
-      placeholder="Enter Full Name"
-      required ></li>
-      <li>
-        <input name="Email" id="emial" type="email" class="text"
-      maxlength="30"
-      placeholder="Enter Email Address"
-      required >
+  <form id="form" class="form" action="https://formspree.io/f/xpznodvr" method="post">
+    <ul class="form_input">
+      <li><input name="Fname" id="name" type="text" class="text"
+        maxlength="30"
+        placeholder="Enter Full Name"
+        required ></li>
+        <li>
+          <input name="Email" id="email" type="email" class="text"
+        maxlength="30"
+        placeholder="Enter Email Address"
+        required >
+        <p class="errorsDisplay"></p>
       </li>
+      
       <li>
         <textarea
         value="Wite your message"
@@ -180,11 +182,19 @@
         rows="10"
       ></textarea>
       </li>
-      <li class="Get_btn">
+    </ul>
+   
+    <div class="Get_btn">
+      <button type="summit" >Get In Touch</button>
+    </div>
+      <!-- <p class="errorsDisplay"></p> -->
+      <!-- <li class="Get_btn">
+        <p class="errorsDisplay"></p>
         <button type="summit" >Get In Touch</button>
-      </li>
-  </ul>
+      </li>      
+    </ul> -->
   </form>
+  
   <div class="shape"><img src="./image/Shape.png" alt="Shape"></div>
 </div>
 </section>
