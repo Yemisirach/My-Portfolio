@@ -157,14 +157,14 @@
       love to help with it
     </p>
   </div>
-  <form class="form" id="registration-form" action="https://formspree.io/f/xpznodvr" method="post">
+  <form class="form" action="https://formspree.io/f/xpznodvr" method="post">
   <ul class="form_input">
-    <li><input name="Fname" id="fullName" type="text" class="text"
+    <li><input name="Fname" id="name" type="text" class="text"
       maxlength="30"
       placeholder="Enter Full Name"
       required ></li>
       <li>
-        <input name="Email" id="email" type="email" class="text"
+        <input name="Email" id="emial" type="email" class="text"
       maxlength="30"
       placeholder="Enter Email Address"
       required >
@@ -180,6 +180,7 @@
         rows="10"
       ></textarea>
       </li>
+      <p id="errorsDisplay"></p>
       <li class="Get_btn">
         <button type="summit" >Get In Touch</button>
       </li>

@@ -1429,6 +1429,7 @@ input:invalid {
   line-height: 1.5em;
   background: #ffdce2;
   font-weight: bold;
+  display: none;
 }
 
 input[type="submit"] {

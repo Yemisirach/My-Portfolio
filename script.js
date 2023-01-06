@@ -252,7 +252,7 @@ cardButton.forEach((button) => {
 
 // *******************************
 let contact = document.getElementById("registration-form");
-contact.onsubmit = formSubmitChecker;
+// contact.onsubmit = formSubmitChecker;
 
 const isUppercase = (email) => {
   if (/[A-Z]/.test(email)) {
@@ -260,27 +260,28 @@ const isUppercase = (email) => {
   }
   return false;
 };
-function formSubmitChecker(e) {
+
+contact.addEventListener('submit', (e) => {
   e.preventDefault();
   let errors = [];
   let contactErrorsDisplay = document.getElementById("errorsDisplay");
-  elErrorsDisplay.innerHTML = "";
-  let contactemail = document.getElementById("email");
+  contactErrorsDisplay.innerHTML = "";
+  let contactemail = e.target.email.value;
   // Get their values
-  let contactemailValue = contactemail[0].value;
-  if (!contactemailValue) {
+  let contactemailValue = isUppercase(contactemail);
+  if (contactemailValue) {
     errors.push("email field is required");
-  } else if (contactemailValue !== isUppercase) {
-    errors.push("email it must be LowerCase");
   } else {
+    contactErrorsDisplay.style.display = "none";
+    contact.submit();
   }
+
   if (errors.length > 0) {
     // Stops the form from submitting
     contactErrorsDisplay.style.display = "block";
     for (let i = 0; i < errors.length; i++) {
       contactErrorsDisplay.innerHTML += errors[i] + "<br>";
     }
-  } else {
-    alert("Submitted");
   }
-}
+
+});
