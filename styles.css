@@ -1422,8 +1422,9 @@ input:invalid {
 }
 
 .errorsDisplay {
-  padding: 5px;
-  width: 300px;
+  padding: 2px;
+  padding-left: 20px;
+  width: 280px;
   border-radius: 10px;
   z-index: -1;
   border: 1px solid red;
