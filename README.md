@@ -12,7 +12,7 @@ Git clone git@github.com:# My-Portfolio
 
 Getting Started
 Cloning the project
-Git clone git@github.com:yemisirachportfolio.github.io.git
+Git clone git@github.com:https://github.com/Yemisirach/My-Portfolio.git
 To get a local copy up and running follow these simple example steps.
 Prerequisites
 
